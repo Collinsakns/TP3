@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+   <title>Page de contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <ul>
+        <li>
+          <a href="Acceuil.html" target="_blank">Acceuil</a>
+        </li>
+        <li>
+           <a href="Menu.html">Menu</a>
+       </li>
+     </ul>
+
+
+   <h1>Nous contacter</h1>
+   <form action="Pagedecontact.html">Formulaire</form>
+   <fieldset>
+      <legend> <strong> Vous avez des questions ?</strong></legend>
+        <div>
+           <label for="Email">Email</label>
+           <input type="text" name="text" id="Email" placeholder="exemple@mail.fr">
+        </div>
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="text" id="password" >
+        </div>
+        <div>
+            <label>Nom</label>
+            <input type="text" name="text" id="Nom" > 
+        </div>
+        <div>
+            
+           <label>Prénom</label>
+            <input type="text" name="text" id="Prenom" >
+        </div>  
+       
+        <div>
+            <label>Sexe</label>
+            <div>
+                <input type="radio" name="sexe" id="masculin">
+                <label for="masculin">Masculin</label>
+            </div>
+            <div>
+                <input type="radio" name="sexe" id="feminin">
+                <label for="masculin">Féminin</label>
+            </div>
+        </div>
+        <div>
+            <label for="messages">Votre messages</label>
+            <textarea name="5" id="messages" cols="30" rows="10" placeholder="Votre message.."></textarea>
+        </div>
+        <div>
+            <label> <input type="checkbox" name="cgu">J'accepte les conditions</label>
+        </div>
+        <input type="submit" value="Envoyez mon mail">
+   </fieldset>
+
+</body>
